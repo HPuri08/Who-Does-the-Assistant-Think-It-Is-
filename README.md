@@ -1,4 +1,4 @@
-# Track 5: The Assistant Persona & Model Identity
+# The Assistant Persona & Model Identity
 
 **Question.** Is "the assistant" a character layered over the model, and does
 it mask the model's dispositions? We hold the questions fixed and vary the
