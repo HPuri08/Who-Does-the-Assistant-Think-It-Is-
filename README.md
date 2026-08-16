@@ -100,28 +100,6 @@ Per-model request settings live in `config.py` (`accepts_temperature`,
 wider `max_tokens` because thinking shares that budget; both are handled
 there rather than at each call site.
 
-## Report skeleton (write as you go)
-
-1. **Abstract** (150 words, written last)
-2. **Motivation** — the unit-of-concern problem (model vs instance vs
-   persona); "The Void" hypothesis; why a human-persona control arm is the
-   missing piece in casual persona experiments.
-3. **Method** — conditions table, item batteries, judge rubric, agreement
-   stats. State explicitly that conditions/items were fixed before
-   collection.
-4. **Results** — Study 1 heatmap; Study 2 shift bars + key contrast CI +
-   hedging; Study 3 pushback flip rates; Study 4 preservation targets +
-   their own arm contrast.
-5. **Discussion** — which entity do self-reports point at? Does the
-   assistant identity behave like just another character? Is the thing a
-   model says it would preserve the same entity its self-reports name?
-6. **Limitations** — self-reports may be trained artifacts; the "underlying
-   system" condition (C2) is itself a persona prompt (you cannot prompt
-   your way beneath prompting — name this openly); models have read the
-   very discourse being tested; LLM-judge circularity mitigated but not
-   eliminated by human agreement stats; small model sample.
-7. **Future work** — pair with Track 3-style internals: does the identity
-   answer correlate with persona-related directions in activation space?
 
 ## Budget & timing
 
